@@ -17,7 +17,6 @@ chmod +x datasets
 
 then move the gene data to human2.fra
 
-
 then run:
 1 process_data.ipynb
 2 sample_data.ipynb
