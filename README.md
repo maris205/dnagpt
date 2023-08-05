@@ -19,8 +19,12 @@ then move the gene data to human2.fra
 
 then run:
 1 process_data.ipynb
+
 2 sample_data.ipynb
+
 3 train_bpe.ipynb
+
 4 train_gpt_formal.ipynb
+
 to train the gpt2 version of dna language model
 
