@@ -7,8 +7,8 @@ dna language model trained using gpt2. using human genome data.
 
 Key features of our dangpt models:
 
-1. BPE tokenization instead of k-mers (DNABERT, DNABERT2 also use BPE)
-2. GPT model, but not bert(DNABERT, GENA_LM)
+1. BPE tokenization instead of k-mers/DNABERT (DNABERT2 also use BPE)
+2. GPT model, but not bert (DNABERT, GENA_LM)
 3. pre-training on the latest T2T human genome assembly
 
 
@@ -22,9 +22,9 @@ curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/
 
 chmod +x datasets 
 
-./datasets download genome accession GCF_000001405.40 --filename genomes/human_genome_dataset.zip 
+./datasets download genome accession GCF_000001405.40 --filename human_genome_dataset.zip 
 
-then move the gene data to human2.fra
+then move the gene data to human2.fna
 
 then run:
 1 process_data.ipynb
