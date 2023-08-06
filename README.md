@@ -35,7 +35,9 @@ then run:
 
 4 train_gpt_formal.ipynb
 
-to train the gpt2 version of dna language model
+to train the gpt2 version of dna language model.
+
+# Test this model
 
 
 
