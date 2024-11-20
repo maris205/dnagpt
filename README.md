@@ -63,5 +63,11 @@ print(embedding_mean.shape) # expect to be 768
 embedding_max = torch.max(hidden_states[0], dim=0)[0]
 print(embedding_max.shape) # expect to be 768
 
+```
+
+# meme, Just for fun:)
+
+https://pump.fun/coin/CxQdUWdhHmGmjnuMsAaA42dWjZsXsC2ArRb3xH75pump
+
 
 
